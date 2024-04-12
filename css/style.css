@@ -1,0 +1,85 @@
+html{
+    --vermelho-m: #f04155;
+    --laranja-m: #ff823a;
+    --amarelo-m:  #f2f26f;
+    --bege-m:  #fff7bd;
+    --verde-m: #95cfb7;
+}
+
+body {
+    background-color:var(--bege-m);
+    margin: 0px;
+    font-size: 1rem;
+}
+
+.main-header{
+    background-color: var(--vermelho-m);
+    color: var(--bege-m);
+    margin: 0px;
+}
+.main-header h1{
+ margin: 0px;
+}
+
+.main-nav-bar{
+    background-color: var(--verde-m);
+    margin: 0px;
+}
+
+.main-nav-bar ul{
+    list-style: none;
+    padding: 0%;
+}
+
+.main-nav-bar li{
+    display: inline;
+}
+
+#banner-container{
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    margin: 0;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#banner-principal {
+    background-image: url(../image/hero-page-back.jpeg);
+    filter: opacity(.7) blur(2px);
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+}
+
+#banner-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    color: #1a1a1a;
+    text-shadow: white 0px 0px 4px;
+}
+
+.hero-page{
+    color: var(--bege-m);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.card-arte {
+    background-color: var(--vermelho-m);
+    color: var(--bege-m);
+    width: 30%;
+    border: 3px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+#painel-principal{
+    background-color: white;
+    max-width: 800px;
+    margin: 10px auto;
+    border-radius: 20px;
+}

@@ -1,0 +1,6 @@
+Paleta cores
+.color1 { #f04155 };
+.color2 { #ff823a };
+.color3 { #f2f26f };
+.color4 { #fff7bd };
+.color5 { #95cfb7 };
