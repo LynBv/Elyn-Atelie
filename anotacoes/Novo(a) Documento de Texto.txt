@@ -4,3 +4,7 @@ Paleta cores
 .color3 { #f2f26f };
 .color4 { #fff7bd };
 .color5 { #95cfb7 };
+
+FONTS
+. Platypi (https://fonts.google.com/specimen/Platypi)
+. Lora (https://fonts.google.com/specimen/Lora)

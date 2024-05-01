@@ -1,13 +1,19 @@
 html{
+    --branco-m: #f9f9f9;
     --vermelho-m: #f04155;
     --laranja-m: #ff823a;
     --amarelo-m:  #f2f26f;
     --bege-m:  #fff7bd;
     --verde-m: #95cfb7;
+    --bege-s: #fdf8d7 ;
+    --verde-s:  #cfe7c6;
+    --laranja-s:  #ffb990;
+    --bege-t:  #fdfbe9;
+    --verde-t: #217e4183;
 }
 
 body {
-    background-color:var(--bege-m);
+    background-color:var(--bege-s);
     margin: 0px;
     font-size: 1rem;
 }
@@ -17,24 +23,27 @@ body {
     position: relative;
 }
 .main-header{
+    font-family: "Platypi";
     background-color: var(--vermelho-m);
-    color: var(--bege-m);
+    color: var(--bege-s);
     margin: 0px;
     text-align: center;
+    padding-bottom: 3px;
 }
 .main-header h1{
  margin: 0px;
 }
 
 .main-nav-bar{
-    background-color: var(--laranja-m);
-    color: white;
+    font-family: "Lora";
+    background-color: var(--laranja-s);
     font-size:1.2em;
 }
 .main-nav-bar ul{
     list-style: none;
     padding: 0%;
     margin: 0;
+ text-align:center;
 }
 
 .main-nav-bar li{
@@ -42,8 +51,17 @@ body {
     padding: 30px;
 }
 
+.main-nav-bar a{
+    text-decoration: none;
+    color: var(--branco-m);
+}
+
+.main-nav-bar a:hover{
+    color: #ff823a;
+}
+
 #painel-principal{
-    background-color: white;
+    background-color: var(--bege-t);
     max-width: 1000px;
     margin: 10px auto;
     border-radius: 20px;
@@ -60,21 +78,22 @@ body {
 
 #banner-principal {
     background-image: url(../image/hero-page-back.jpeg);
-    filter: opacity(.7) blur(2px);
+    filter: opacity(.7) blur(1px);
     height: 220px;
     background-position: center;
     background-size: cover;
 }
 
 #banner-texto {
+    font-family: "Lora";
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
-    color: #f3f3f3;
-    text-shadow:var(--verde-m) 0px 0px 4px;
-    font-size: 1.2em;
+    color: var(--branco-m);
+    text-shadow:var(--verde-m) 0px 0px 3px;
+    font-size: 1.1em;
 }
 
 .hero-page{
@@ -84,8 +103,9 @@ body {
 }
 
 .card-arte {
-    background-color: var(--verde-m);
-    color: var(--bege-m);
+    font-family: "Lora";
+    background-color: var(--verde-s);
+    color: var(--verde-t);
     width: 30%;
     border-radius: 10px;
     display: inline-block;
@@ -93,8 +113,8 @@ body {
 }
 
 .footer-box{
-    background-color: var(--laranja-m);
-    color: white;
+    background-color: var(--verde-m);
+    color: var(--branco-m);
     position: absolute;
     bottom: 0px;
     right: 0px;
